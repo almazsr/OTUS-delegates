@@ -25,6 +25,7 @@
 - `System.IO.FileSystemWatcher`
 - `System.Timers.Timer`
 Использовать свойство Interval класса `System.Timers.Timer`
+Использовать свойство `EnableRaisingEvents` у `System.IO.FileSystemWatcher`, чтобы он начал отправлять события
 
 ## Критерии оценивания
 Создана библиотека .NET Standard и класс `DocumentsReceiver`  (1 балл)
