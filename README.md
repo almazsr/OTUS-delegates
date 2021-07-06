@@ -31,12 +31,12 @@
 Использовать свойство `EnableRaisingEvents` у `System.IO.FileSystemWatcher`, чтобы он начал отправлять события
 
 ## Критерии оценивания
-Создана библиотека .NET Standard и класс `DocumentsReceiver`  (1 балл)
-Создан непустой метод `Start` с необходимыми параметрами (1 балл)
-Есть подписки на события классов `System.IO.FileSystemWatcher` и `System.Timers.Timer`  (1 балл)
-Директория и интервал ожидания конфигурируются (1 балл)
-Есть события `DocumentsReady` и `TimedOut` и они вызывается (1 балл)
-Есть отписки от событий классов `System.IO.FileSystemWatcher` и `System.Timers.Timer`  (1 балл)
+- Создана библиотека .NET Standard и класс `DocumentsReceiver`  (1 балл)
+- Создан непустой метод `Start` с необходимыми параметрами (1 балл)
+- Есть подписки на события классов `System.IO.FileSystemWatcher` и `System.Timers.Timer`  (1 балл)
+- Директория и интервал ожидания конфигурируются (1 балл)
+- Есть события `DocumentsReady` и `TimedOut` и они вызывается (1 балл)
+- Есть отписки от событий классов `System.IO.FileSystemWatcher` и `System.Timers.Timer`  (1 балл)
 `DocumentsReceiver` работает правильно (4 балла)
 
 
